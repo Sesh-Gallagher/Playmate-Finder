@@ -20,6 +20,17 @@ A modern web application designed to help parents find and arrange playdates for
   - React Router for navigation
   - Lucide React for icons
 
+- **Backend**
+Server-Side Frameworks:
+Node.js with Express.js for creating REST APIs.
+Database:
+- MongoDB for profile and user management
+-Redis for caching frequently accessed data like profile details or matchmaking results.
+Authentication:
+-JWT (JSON Web Tokens) or OAuth 2.0 for secure authentication and authorization.
+Error Logging: Winston.
+Notifications: Firebase Cloud Messaging (FCM).
+
 - **Development Tools**:
   - Vite for build tooling
   - ESLint for code quality
