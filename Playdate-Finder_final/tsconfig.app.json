@@ -1,0 +1,47 @@
+/**
+ * This is the TypeScript configuration file for the application.
+ * It sets various compiler options to control the behavior of the TypeScript compiler.
+ *
+ * The key options are:
+ * - `target`: The ECMAScript version to target (ES2020 in this case)
+ * - `useDefineForClassFields`: Enables a specific behavior for class fields
+ * - `lib`: The set of library definition files to include (ES2020, DOM, DOM.Iterable)
+ * - `module`: The module system to use (ESNext)
+ * - `moduleResolution`: The module resolution strategy to use (bundler)
+ * - `allowImportingTsExtensions`: Allows importing TypeScript files directly
+ * - `isolatedModules`: Ensures each file can be safely transpiled without relying on other files
+ * - `moduleDetection`: Forces the module detection mode
+ * - `noEmit`: Disables the emission of compiled output files
+ * - `jsx`: Specifies the JSX emit mode (react-jsx)
+ * - `strict`: Enables all strict type-checking options
+ * - `noUnusedLocals`: Reports errors on unused local variables
+ * - `noUnusedParameters`: Reports errors on unused parameters
+ * - `noFallthroughCasesInSwitch`: Reports errors for fallthrough cases in switch statements
+ *
+ * The `include` option specifies that the compiler should include all files in the `src` directory.
+ */
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
+

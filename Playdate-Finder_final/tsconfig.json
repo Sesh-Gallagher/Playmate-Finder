@@ -1,0 +1,14 @@
+/**
+ * The tsconfig.json file is a configuration file for the TypeScript compiler. It specifies the root files and the compiler options required to compile the project.
+ * 
+ * The `files` property is an array of file paths that should be included in the compilation. In this case, the array is empty, which means that the compiler will include all TypeScript files in the project.
+ * 
+ * The `references` property is an array of references to other TypeScript configuration files. In this case, the project has two references: `tsconfig.app.json` and `tsconfig.node.json`. These files likely contain additional configuration options specific to the application and Node.js environments, respectively.
+ */
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
