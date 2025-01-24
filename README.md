@@ -27,7 +27,7 @@ Database:
 - MongoDB for profile and user management
 -Redis for caching frequently accessed data like profile details or matchmaking results.
 Authentication:
--JWT (JSON Web Tokens) or OAuth 2.0 for secure authentication and authorization.
+-JWT (JSON Web Tokens) for secure authentication and authorization.
 Error Logging: Winston.
 Notifications: Firebase Cloud Messaging (FCM).
 
