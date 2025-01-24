@@ -1,6 +1,3 @@
-/** 
-The `AdminSidebar` component renders a sidebar navigation menu for the admin section of the application. It displays a list of navigation items, each with an icon and a label, that link to different admin-related pages. The sidebar is positioned on the left side of the screen and has a fixed width of 64 pixels. The navigation items are rendered using the `NavLink` component from the `react-router-dom` library, which automatically applies an active state class when the current URL matches the item's path.
-*/
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
