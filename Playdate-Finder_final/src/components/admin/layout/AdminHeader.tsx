@@ -1,8 +1,3 @@
-/**
-The `AdminHeader` component represents the header section of the admin interface. 
-It displays the application title, as well as buttons for notifications, settings, and user profile. 
-This component is exported and can be used in other parts of the admin application.
-*/
 import React from 'react';
 import { Bell, Settings, User } from 'lucide-react';
 
