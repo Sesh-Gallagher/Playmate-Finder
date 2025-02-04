@@ -57,7 +57,7 @@ A modern web application designed to help parents find and arrange playdates for
    ```bash
    npm run dev
    ```
-
+3.5 - https://playmate-finder.netlify.app/login alternatively 
 4. Open your browser and navigate to `http://localhost:5173`
 
 ## Project Structure
