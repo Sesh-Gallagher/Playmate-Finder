@@ -23,9 +23,7 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
-    // Ensure clean build //
     emptyOutDir: true,
-    // Optimize bundle size //
     rollupOptions: {
       output: {
         manualChunks: {
@@ -36,6 +34,9 @@ export default defineConfig({
     }
   },
   server: {
+    host: '0.0.0.0', // Listen on all addresses
+    port: 3000,
+    strictPort: true, // Fail if port is in use
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
