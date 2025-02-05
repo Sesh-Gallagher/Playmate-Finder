@@ -4,7 +4,6 @@ import { AdminSidebar } from '../../components/admin/layout/AdminSidebar';
 import { AdminHeader } from '../../components/admin/layout/AdminHeader';
 import { AdminNotifications } from '../../components/admin/notifications/AdminNotifications';
 import { SystemStatus } from '../../components/admin/monitoring/SystemStatus';
-import { RecentActivity } from '../../components/admin/activity/RecentActivity';
 import { LogViewer } from '../../components/admin/monitoring/LogViewer';
 import { NotificationCenter } from '../../components/admin/notifications/NotificationCenter';
 import { useSystemHealth } from '../../hooks/admin/useSystemHealth';
