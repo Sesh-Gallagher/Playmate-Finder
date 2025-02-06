@@ -1,0 +1,28 @@
+/**
+ * This is a TypeScript configuration file for the Vite bundler.
+ * It sets the target ECMAScript version to ES2022, includes the ES2023 library, and uses the ESNext module format.
+ * The configuration also enables several linting options, such as strict type checking, no unused locals or parameters, and no fallthrough cases in switch statements.
+ * The file is included in the build process for the `vite.config.ts` file.
+ */
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["vite.config.ts"]
+}
